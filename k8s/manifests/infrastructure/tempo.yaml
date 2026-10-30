@@ -64,6 +64,7 @@ data:
     distributor:
       receivers:
         zipkin:
+          endpoint: 0.0.0.0:9411
     
     storage:
       trace:
